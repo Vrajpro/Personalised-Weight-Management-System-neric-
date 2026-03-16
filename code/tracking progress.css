@@ -1,0 +1,14 @@
+
+  .navbar-nav .nav-link {
+    color: #fff; /* Change text color to white */
+  }
+
+  .container-fluid {
+    height: 120px;
+}
+.horizontal-line {
+  width: 100%;
+  border-top: 1.5px solid #ccc; /* Adjust color and width as needed */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+

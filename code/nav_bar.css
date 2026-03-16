@@ -1,0 +1,9 @@
+.navbar {
+  background-color: rgba(222, 249, 202, 0.9); /* Semi-transparent green background */
+  padding: 6px; /* Add some padding to the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  display: flex; /* Make the navbar items align horizontally */
+  justify-content: space-between; /* Space items evenly in the navbar */
+  align-items: center; /* Vertically center items within the navbar */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+}

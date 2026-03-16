@@ -1,0 +1,31 @@
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.container-fluid {
+    height: 190px;
+}
+.like-button,
+.dislike-button {
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.like-button.liked {
+    color: rgb(10, 118, 12); /* You can change the color as desired */
+}
+.dislike-button.disliked{
+    color: rgb(199, 10, 10);}
+
+#chat {
+    width: 100%; /* You can adjust the width as needed */
+    border: 1px;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+.btn
+{
+    border-radius: 8px;
+}

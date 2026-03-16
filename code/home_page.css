@@ -1,0 +1,87 @@
+.container-fluid {
+  padding: 4%;
+  background-position: center center;
+
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+
+    /* Custom CSS for navigation links on hover */
+    .navbar-nav .nav-item .nav-link:hover {
+      color: green !important;
+    }
+
+    /* Add this CSS to your home_page.css file or in a <style> tag in the HTML */
+.profile-dropdown-menu {
+  right: 0; /* Adjust this value as needed */
+  left: auto;
+}
+
+/* Add this CSS to your home_page.css file or in a <style> tag in the HTML */
+.navbar-nav .nav-item .nav-link {
+  margin-right: 100px; /* Adjust the margin as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+#slogan
+{
+  color: rgb(255, 255, 255);
+  padding: 14%;
+  text-align: center;
+}
+
+/* Dropdown Menu Styles */
+.profile-dropdown-menu {
+  position: absolute;
+  top: 100%; /* Adjust as needed to position the dropdown below the parent element */
+  right: 0; /* Adjust this value as needed */
+  left: auto;
+  display: none; /* Hide the dropdown by default */
+  flex-direction: column;
+  background-color: #fff; /* Background color for the dropdown */
+  border: 1px solid #ccc;
+  z-index: 1; /* Ensure the dropdown appears above other content */
+  min-width: 160px; /* Adjust the width as needed */
+}
+
+/* Show the dropdown when the parent link is hovered */
+.navbar-nav .nav-item.dropdown:hover .profile-dropdown-menu {
+  display: flex;
+}
+
+/* Style the dropdown links */
+.profile-dropdown-menu a {
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+  color: #000; /* Text color for dropdown items */
+  transition: background-color 0.3s;
+}
+
+/* Change the background color of dropdown items on hover */
+.profile-dropdown-menu a:hover {
+  background-color: green; /* Adjust the color as needed */
+  color: #fff; /* Text color when hovered */
+  
+}
+
+
+
+
